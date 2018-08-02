@@ -1,0 +1,17 @@
+{
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["jest"],
+  "rules": {
+    "react/destructuring-assignment": "never",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/prefer-default-export": "never",
+    "no-case-declarations": 0
+  }
+}

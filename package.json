@@ -1,0 +1,56 @@
+{
+  "main": "src/components/AppEntry.js",
+  "private": true,
+  "jest": {
+    "preset": "jest-expo",
+    "moduleNameMapper": {
+      "styled-components": "<rootDir>/node_modules/styled-components/dist/styled-components.native.cjs.js"
+    },
+    "transformIgnorePatterns": [
+      "node_modules/(?!react-native|react-navigation)/"
+    ],
+    "globals": {
+      "NODE_ENV": "test"
+    },
+    "moduleDirectories": [
+      "node_modules",
+      "src"
+    ]
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "expo": "^28.0.0",
+    "global": "^4.3.2",
+    "history": "^4.7.2",
+    "immutability-helper": "^2.7.1",
+    "jest-styled-components": "^5.0.1",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-native": "^4.3.0",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "recompose": "^0.27.1",
+    "redux": "^4.0.0",
+    "redux-observable": "^1.0.0",
+    "reselect": "^3.0.1",
+    "rn-placeholder": "^1.2.0",
+    "rxjs": "^6.2.2",
+    "rxjs-compat": "^6.2.2",
+    "styled-components": "^3.3.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "babel-jest": "^23.4.0",
+    "eslint": "^5.2.0",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.10.0",
+    "jest-expo": "^28.0.0",
+    "react-test-renderer": "^16.4.1"
+  }
+}

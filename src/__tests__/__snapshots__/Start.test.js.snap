@@ -1,0 +1,194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flexBasis": 0,
+        "flexDirection": "column",
+        "flexGrow": 1,
+        "flexShrink": 1,
+        "justifyContent": "space-between",
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "color": "white",
+          "fontSize": 30,
+          "fontWeight": "600",
+          "paddingBottom": 10,
+          "paddingTop": 20,
+          "textAlign": "center",
+        },
+        undefined,
+      ]
+    }
+  >
+    Welcome to the Trivia Challenge!
+  </Text>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "white",
+          "borderRadius": 15,
+          "justifyContent": "space-between",
+          "marginBottom": 10,
+          "minHeight": 120,
+          "paddingBottom": 10,
+          "paddingHorizontal": 15,
+          "paddingTop": 20,
+          "shadowColor": "black",
+          "shadowOpacity": 0.15,
+          "width": 300,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#454544",
+            "fontSize": 18,
+            "paddingBottom": 10,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      You will be presented with 10 True or False questions.
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "color": "#454544",
+            "fontSize": 18,
+            "paddingBottom": 10,
+            "textAlign": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      Can you score 100%?
+    </Text>
+    <View
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+            "height": 72,
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        color="#454544"
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "borderColor": "#454544",
+              "borderRadius": 30,
+              "borderWidth": 2,
+              "marginHorizontal": 10,
+              "marginVertical": 10,
+              "paddingVertical": 5,
+              "width": 120,
+            },
+            undefined,
+          ]
+        }
+        title="BEGIN"
+      >
+        <View
+          accessibilityComponentType="button"
+          accessibilityLabel={undefined}
+          accessibilityTraits={
+            Array [
+              "button",
+            ]
+          }
+          accessible={true}
+          collapsable={undefined}
+          hasTVPreferredFocus={undefined}
+          hitSlop={undefined}
+          isTVSelectable={true}
+          nativeID={undefined}
+          onLayout={undefined}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID={undefined}
+          tvParallaxProperties={undefined}
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              disabled={undefined}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "padding": 8,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#454544",
+                  },
+                ]
+              }
+            >
+              BEGIN
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+  />
+</View>
+`;
